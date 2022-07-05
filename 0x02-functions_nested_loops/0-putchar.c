@@ -1,6 +1,4 @@
 #include "main.h"
-
-
 /**
 * main - Entry begins
 * Return: nothing, return void
