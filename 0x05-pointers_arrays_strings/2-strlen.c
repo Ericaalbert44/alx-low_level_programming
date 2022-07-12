@@ -1,16 +1,17 @@
 /**
- * swap_int - swaps the values of two integers
-* using two input parameters
-* @a: input parameter 1
-* @b: input parameter 2
-* Return: Nothing
+*_strlen -length of a string
+*@s: A pointer to an int that will be changed/updated
+* Return: void this means the answer is spot on
 */
 
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-int temp;
+int u;
 
-temp = *a;
-*a = *b;
-*b = temp;
+u = 0;
+while (s[u] != '\0')
+{
+u++;
+}
+return (u);
 }
