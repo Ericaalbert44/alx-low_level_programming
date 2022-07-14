@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
-int main(void)
+@@ -6, 7 + 6, 7 @@ int main(void)
 {
 int n;
 int a[5];
 int *p;
 
-a[2] = 1024;
+-a[2] = 98;
++a[2] = 1024;
 p = &n;
 /*
 * write your line of code here...
