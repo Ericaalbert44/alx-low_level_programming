@@ -9,8 +9,7 @@
 *
 * Return: Always 0.
 */
-int main(int __attribute__((__unused__)) argc,
-char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 char password[7], *codex;
 int len = strlen(argv[1]), i, tmp;
@@ -26,7 +25,7 @@ tmp += argv[1][i];
 password[1] = codex[(tmp ^ 79) & 63];
 
 tmp = 1;
-for (i = 0; i < len; ++)
+for (i = 0; i < len; i++)
 tmp *= argv[1][i];
 password[2] = codex[(tmp ^ 85) & 63];
 
